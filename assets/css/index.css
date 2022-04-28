@@ -43,7 +43,7 @@ header{
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 180%;
     letter-spacing: 4px;
 }
 
@@ -56,32 +56,90 @@ header{
 
 #menu a {
     text-decoration: none;
-    color: inherit;
-
-    
-    background:
-        linear-gradient(
-        to right,
-        rgba(240, 248, 255, 1),
-        rgba(240, 248, 255, 1)
-        ),
-        linear-gradient(
-        to right,
-        rgba(255, 0, 0, 1),
-        rgba(255, 0, 180, 1),
-        rgba(0, 100, 200, 1)
-    );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-    
+    color: aliceblue;
 }
 
-#menu a:hover {
-    background-size: 0 3px, 100% 3px;
+#menu a:hover{
+    color: rgb(160, 162, 162);
 }
 
+/* main section*/
+/* O grid vai ter 3 colunas e dois rows*/
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+}
+.circle {
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    margin: 30px;
+}
+
+/* .shadow {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 30px;
+    color: rgba(255, 255, 255, .6);
+} */
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#south {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: center;
+    margin: 10px;
+    background: turquoise;
+}
+
+img {
+    grid-column:  2 ;
+    grid-row: 1 / span 2;
+    justify-self: center;
+}
+
+#north-east {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+    background: green;
+}
+
+#north {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    justify-self: center;
+    background: yellow;
+}
+
+#midwest {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    background: red;
+}
+
+#southeast {
+    grid-column: 3;
+    grid-row: 2;
+    justify-self: center;
+    background: blue;
+}
 
 /* footer*/
 footer {
