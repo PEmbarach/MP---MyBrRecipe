@@ -67,6 +67,30 @@ header{
     color: rgb(160, 162, 162);
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: url(../images/knife.jpg) no-repeat bottom right;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    letter-spacing: 4px;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.dropdown-content:hover {
+    color: rgb(160, 162, 162);
+}
+
 /* main section*/
 .main {
     display: grid;
@@ -85,20 +109,20 @@ header{
     zoom: 105%;
 }
 
-h2 {
+.main h2 {
     text-align: center;
     padding-top: 60px;
     font-size: 30px;
     line-height: 30px;
 }
 
-p {
+.main p {
     text-align: center;
     font-size: 20px;
     padding-bottom: 20px;
 }
 
-img {
+.main img {
     grid-column:  2 ;
     grid-row: 1 / span 2;
     justify-self: center;
@@ -172,7 +196,7 @@ footer {
     color: rgb(160, 162, 162);
 }
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     #logo {
         margin-top: 40px;
         margin-left: 30%;
@@ -191,7 +215,7 @@ footer {
         margin-top: 0;
     }
 
-    img {
+    .main img {
         display: none;
     }
 
@@ -257,6 +281,32 @@ footer {
     .social-medias {
         text-align: center;
         padding-top: 50px;
+    }
+
+    /* Recipe page*/
+
+    .recipe>img {    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px !important;
+        float: inherit !important;
+    }
+ 
+    .ingredients>h2 {
+        text-align: center;
+    }
+
+    .ingredients>ul {
+        padding-left: 260px;
+    }
+
+    .how-to-make>h2 {
+        text-align: center;
+    }
+
+    .how-to-make>ol {
+        padding-left: 260px !important;
     }
 }    
 
@@ -282,7 +332,7 @@ footer {
         margin-top: 0;
     }
 
-    img {
+    .main img {
         display: none;
     }
 
@@ -348,6 +398,38 @@ footer {
     .social-medias {
         text-align: center;
         padding-top: 50px;
+    }
+
+    /* Recipe page*/
+
+    .recipe>img {    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px !important;
+        float: inherit !important;
+        width: auto;
+        height: 250px;
+    }
+
+    .recipe>p {
+        padding: 20px 20px !important;
+    }
+ 
+    .ingredients>h2 {
+        text-align: center;
+    }
+
+    .ingredients>ul {
+        padding-left: 60px;
+    }
+
+    .how-to-make>h2 {
+        text-align: center;
+    }
+
+    .how-to-make>ol {
+        padding-left: 20px !important;
     }
 }    
 
@@ -391,7 +473,7 @@ footer {
         margin-top: 0;
     }
 
-    img {
+    .main img {
         display: none;
     }
 
@@ -462,26 +544,40 @@ footer {
 
 /* Recipe page*/
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background: url(../images/knife.jpg) no-repeat bottom right;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    letter-spacing: 4px;
-  }
-  
-.dropdown:hover .dropdown-content {
-    display: block;
-  }
+.recipe>h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 250%;
+}
 
-.dropdown-content:hover {
-    color: rgb(160, 162, 162);
+.recipe>h3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 150%;
+}
+
+.recipe p {
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.recipe>img {
+    padding: 20px 80px 20px 20px;    
+    float: left;
+}
+
+.ingredients {
+    padding: 20px;
+}
+
+.how-to-make {
+    padding: 20px;
+}
+
+.recipe ul {
+    list-style: none;
+}
+
+.how-to-make>ol{
+    padding: 20px 20px 20px 600px;
 }
