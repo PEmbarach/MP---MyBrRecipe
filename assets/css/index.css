@@ -284,11 +284,17 @@ footer {
     }
 
     /* Recipe page*/
+    
+    .box {
+        display: block !important;
+    }
 
     .recipe>img {    
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: auto;
+        height: auto;
         padding: 20px !important;
         float: inherit !important;
     }
@@ -401,7 +407,7 @@ footer {
     }
 
     /* Recipe page*/
-
+    /* North */
     .recipe>img {    
         display: block;
         margin-left: auto;
@@ -431,9 +437,17 @@ footer {
     .how-to-make>ol {
         padding-left: 20px !important;
     }
+
+    /* North East */
+
+    /* .how-to-make {
+        margin-top: 130px;
+    }
+
+    .how-to-make>h2 {
+        text-align: center;
+    } */
 }    
-
-
 
 @media screen and (max-width: 390px) {
     h1 {
@@ -544,6 +558,12 @@ footer {
 
 /* Recipe page*/
 
+.box {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto ;
+}
+
 .recipe>h1 {
     text-align: center;
     padding-top: 20px;
@@ -561,23 +581,39 @@ footer {
     padding: 20px 100px;
 }
 
-.recipe>img {
-    padding: 20px 80px 20px 20px;    
-    float: left;
-}
-
-.ingredients {
-    padding: 20px;
-}
-
-.how-to-make {
-    padding: 20px;
+.recipe img {
+    width: 600px;
+    height: 500px;
+    padding: 20px;    
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .recipe ul {
     list-style: none;
 }
 
+.ingredients {
+    padding: 20px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.ingredients li {
+    letter-spacing: 4px;
+    padding: 10px 0 10px 0;
+}
+
+.how-to-make {
+    padding: 20px;
+    grid-column: -1 / 1;
+    grid-row: 2;
+}
+
+.how-to-make>h2 {
+    text-align: center;
+}
+
 .how-to-make>ol{
-    padding: 20px 20px 20px 600px;
+    padding: 20px;
 }
