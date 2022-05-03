@@ -33,28 +33,28 @@
 <img src="assets/images/signup_page.png">
 
 ## Testing
-    - HTML
-        - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
-        <img src="assets/images/HTML_test.png">
-    - CSS
-        - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
-                <img src="assets/images/CSS_test.png">
-    - Unfixed Bugs
-        - There are some responsive bugs in the CSS file that haven't identified the location of the error yet.
+- HTML
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+<img src="assets/images/HTML_test.png">
+- CSS
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+<img src="assets/images/CSS_test.png">
+- Unfixed Bugs
+- There are some responsive bugs in the CSS file that haven't identified the location of the error yet.
 
 ## Deployment
-    - The site was deployed to GitHub pages. The steps to deploy are as follows:
-        - In the GitHub repository, navigate to the Settings tab
-        - From the source section on the left menu, select the Pages
-        - From the source section drop-down menu, select the Main Branch
-        - Once the main branch has been selected and the save button pressed, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-    The live link can be found here - (https://pembarach.github.io/MP-MyBrRecipe/index.html).
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section on the left menu, select the Pages
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected and the save button pressed, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - (https://pembarach.github.io/MP-MyBrRecipe/index.html).
 
 ## Credits
-    - Content
-        - The recipe content was taken from [this website](https://www.maxmilhas.com.br/blog/dicas-de-viagem/pratos-tipicos-das-cinco-regioes-brasileiras).
-        - Instructions on how to implement the dropdown menu was taken from [this website](https://www.w3schools.com/css/css_dropdowns.asp).
-        - Instructions on how to implement the region buttons was taken from [this website](https://thomas.vanhoutte.be/miniblog/making-a-div-element-clickable-in-html/#:~:text=We%20simply%20add%20the%20onlcick,make%20the%20whole%20div%20clickable.).
-    - Media
-        - The photos used on the home and sign up page are from [This Open Source site](https://www.pexels.com/pt-br/) and also from [this wesite](https://www.maxmilhas.com.br/blog/dicas-de-viagem/pratos-tipicos-das-cinco-regioes-brasileiras).
+- ### Content
+- The recipe content was taken from [this website](https://www.maxmilhas.com.br/blog/dicas-de-viagem/pratos-tipicos-das-cinco-regioes-brasileiras).
+- Instructions on how to implement the dropdown menu was taken from [this website](https://www.w3schools.com/css/css_dropdowns.asp).
+- Instructions on how to implement the region buttons was taken from [this website](https://thomas.vanhoutte.be/miniblog/making-a-div-element-clickable-in-html/#:~:text=We%20simply%20add%20the%20onlcick,make%20the%20whole%20div%20clickable.).
+- ### Media
+- The photos used on the home and sign up page are from [This Open Source site](https://www.pexels.com/pt-br/) and also from [this wesite](https://www.maxmilhas.com.br/blog/dicas-de-viagem/pratos-tipicos-das-cinco-regioes-brasileiras).
         
