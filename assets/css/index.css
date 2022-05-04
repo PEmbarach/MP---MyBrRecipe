@@ -280,6 +280,11 @@ footer {
         padding-top: 50px;
     }
 
+    .social-media i{
+        padding-top: 100px;
+    }
+
+
     /* Recipe page*/
     
     .box {
@@ -315,11 +320,11 @@ footer {
 @media screen and (max-width: 425px) {
     #logo {
         margin-top: 40px;
-        margin-left: 15px;
+        margin-left: 30px;
     }
     
     #menu {
-        margin-left: 0;
+        margin-left: 25px;
         float: left;
         clear: left;
     }
@@ -330,7 +335,7 @@ footer {
     #menu li {
         float: right;
         list-style-type: none;
-        margin-right: 30px;
+        margin-right: 15px;
         margin-top: 0;
     }
 
@@ -401,6 +406,11 @@ footer {
         text-align: center;
         padding-top: 50px;
     }
+
+    .social-media i{
+        padding-top: 100px;
+    }
+
 
     /* Recipe page*/
     .recipe>img {    
@@ -578,6 +588,11 @@ footer {
         padding-top: 50px;
     }
 
+    .social-media i{
+        padding-top: 100px;
+    }
+
+
     .recipe img {
         width: 250px !important;
         height: 200px !important;
@@ -702,6 +717,12 @@ footer {
     .social-medias {
         text-align: center;
         padding-top: 50px;
+        
+    }
+
+    .social-media i{
+        font-size: 180%;
+        padding-top: 100px;
     }
 
     .recipe img {
@@ -710,7 +731,7 @@ footer {
         padding: 20px;    
         grid-column: 1;
         grid-row: 1;
-        margin-left: 40px !important;
+        margin-left: 15px !important;
     }
     
 }    
@@ -828,4 +849,21 @@ footer {
 .join-button:hover {
     background-color:#fafafa;
     color:#f16c6b;
+}
+
+/* Thank You Page */
+
+.thanks {
+    height: 150px;
+}
+
+.thanks h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 250%;
+}
+
+.thanks p {
+    text-align: center;
+    font-size: 180%;
 }
