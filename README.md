@@ -26,19 +26,30 @@
 * ### Recipe
     - On this page the user can see an image of the dish, a list of items with a checkbox to help identify the items that she already has or does not have to make the recipe and a list with the order of preparation of the recipe.
     - This section helps the user to get an overview of what the dish in question looks like, a shopping list and instructions on how to prepare the dish.
+    - The easy input checkbox, which helps to know which item is already on the market/preparation list.
 <img src="assets/images/recipe_page.png">
 
 * ### The Sign Up Page
     - This page allows the user to sign up to receive a My Recipe newsletter, with updates, tips and new recipes. The user will be asked to submit their full name and email address.
 <img src="assets/images/signup_page.png">
 
+* ### Feature for future implementation
+    - Item list to be added to Amazon shopping list.
+    - Videos with step-by-step preparation/
+
+[Back to the top](#my-br-recipe)
+
 ## Testing
 - HTML
-- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
 <img src="assets/images/HTML_test.png">
 - CSS
-- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 <img src="assets/images/CSS_test.png">
+- Lighthouse
+    - The Lighthouse test has 100% performance, 97% Accessibility, 100% Best Practices and 100% SEO.
+<img src="assets/images/lighthouse.png">
+
 - Unfixed Bugs
 - There are some responsive bugs in the CSS file that haven't identified the location of the error yet.
 
@@ -58,3 +69,4 @@ The live link can be found here - (https://pembarach.github.io/MP-MyBrRecipe/ind
 - ### Media
 - The photos used on the home and sign up page are from [This Open Source site](https://www.pexels.com/pt-br/) and also from [this wesite](https://www.maxmilhas.com.br/blog/dicas-de-viagem/pratos-tipicos-das-cinco-regioes-brasileiras).
         
+[Back to the top](#my-br-recipe)
